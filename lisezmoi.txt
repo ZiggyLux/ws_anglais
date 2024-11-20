@@ -1,0 +1,9 @@
+LISEZ MOI DU SITE DE DEVELOPPEMENT ANGLAIS
+==========================================
+
+Pour réactualiser le contenu des vocables :
+- Vérifier l'étendue des onglets à exporter dans le module Export, procédure ExtraireDonnees
+- Exporter de vocable_anglais.xlsm vers un fichier csv anglais.csv
+- Dans DB browser for SqlLite, supprimer tous les enregistrement de la table main.anglais
+- Importer le fichier anglais.csv (attention choisir le bon encodage UTF-8 pour les caractères accentués du français et la phonétique)
+- Ne pas oublier de cliquer sur "Mettre à jour la base de données".
